@@ -12,7 +12,7 @@ terraform {
   }
 }
 
-#this is test1
+#this is test2
 provider "google" {
 
   project = var.project_id
