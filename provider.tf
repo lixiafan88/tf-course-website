@@ -1,7 +1,7 @@
 terraform {
   backend "gcs" {
-    bucket  = "roidtc-projects-213-tf-state"
-    prefix  = "terraform/state"
+    bucket = "roidtc-projects-213-tf-state"
+    prefix = "terraform/state"
   }
 
   required_providers {
